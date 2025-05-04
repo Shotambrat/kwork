@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App" style={{fontSize: "45px", fontWeight: "bold"}}>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Может перейдем в тг для удобства общения?))
+        @El_Guseia
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <img src={"/el_guseia.jpg"} alt="My Avatar" className={"App-logo"}/>
     </div>
   );
 }
